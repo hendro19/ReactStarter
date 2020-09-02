@@ -28,4 +28,10 @@ html {
   height: 600px;
   background-color: #f2f2f2;
   border-radius: 4px;
+  padding: 32px;
+}
+
+.frame {
+  border: 1px solid #448844;
+  height: 1005;
 }
