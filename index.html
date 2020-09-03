@@ -6,10 +6,70 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>STodo</title>
     <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&family=Homemade+Apple&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Homemade+Apple&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
   </head>
   <body>
-    <div class="container">
-      <div class="frame"></div>
+    <!-- Sebagai tempat mengubah component berada -->
+    <div class="root">
+
     </div>
+
+    <script type="text/babel">
+    class App extends React.component{
+      render(){
+        return(
+          <div class="container">
+      <div class="frame">
+        <section class="header">
+          <button class="header-btn main-black-color">add</button>
+          <h1 class="header-title">Todo List</h1>
+          <button class="header-btn main-red-color">Clear</button>
+        </section>
+
+        <section class="add">
+          <form class="add-form">
+            <input type="text" class="add-input" />
+            <button class="add-btn main-black-color">Add</button>
+          </form>
+        </section>
+
+        <section class="todos">
+          <div class="todo">
+            <span class="todo-text">Lering path</span>
+          </div>
+          <div class="todo">
+            <span class="todo-text">Lering path</span>
+          </div>
+          <div class="todo">
+            <span class="todo-text">Lering path</span>
+          </div>
+          <div class="todo">
+            <span class="todo-text">Lering path</span>
+          </div>
+          <div class="todo">
+            <span class="todo-text">Lering path</span>
+          </div>
+          <div class="todo">
+            <span class="todo-text">Lering path</span>
+          </div>
+          <div class="todo">
+            <span class="todo-text">Lering path</span>
+          </div>
+        </section>
+      </div>
+    </div>
+        )
+      }
+    }
+    </script>
   </body>
 </html>
